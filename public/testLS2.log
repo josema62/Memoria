@@ -1,0 +1,964 @@
+[9990ee6] josema62 2018-05-30 Merge pull request #4 from josema62/develop
+[350c2d5] Diego Matus 2018-05-30 Modificion en agregarProductaFactura y en DB
+2	2	src/modelodedatos/BD.java
+25	12	src/proyectoconstru/interfazAdministrador/AgregarProductoEnFacturaController.java
+
+[8fcb22a] Roberto Ureta 2018-05-30 pequeñoCambio
+1	0	src/proyectoconstru/interfazAdministrador/FormularioAgregarFacturaController.java
+
+[cd051c0] Roberto Ureta 2018-05-30 Merge branch 'feature/nuevasmidficaciones' into develop
+[d174c87] Roberto Ureta 2018-05-30 event filter largo de campos
+1	1	src/proyectoconstru/interfazAdministrador/AnularBoletaController.java
+10	2	src/proyectoconstru/interfazAdministrador/EditarCajeroController.java
+2	2	src/proyectoconstru/interfazAdministrador/EditarProductoController.java
+2	2	src/proyectoconstru/interfazAdministrador/EditarProveedorController.java
+10	2	src/proyectoconstru/interfazAdministrador/FormularioAgregarCajeroController.java
+1	1	src/proyectoconstru/interfazAdministrador/FormularioAgregarFacturaController.java
+2	2	src/proyectoconstru/interfazAdministrador/FormularioAgregarProductoController.java
+18	2	src/proyectoconstru/interfazAdministrador/FormularioAgregarProveedorController.java
+
+[4a605ca] Roberto Ureta 2018-05-30 Merge remote-tracking branch 'origin/develop' into develop
+[a06da02] Roberto Ureta 2018-05-30 Merge branch 'feature/Detalles' into develop
+[78837f6] Roberto Ureta 2018-05-30 saque estado de listar productos
+0	1	src/proyectoconstru/interfazAdministrador/ListarProductos.fxml
+1	3	src/proyectoconstru/interfazAdministrador/ListarProductosBajaStock.fxml
+5	5	src/proyectoconstru/interfazAdministrador/ListarProductosBajaStockController.java
+5	5	src/proyectoconstru/interfazAdministrador/ListarProductosController.java
+
+[ca7a3de] Jose 2018-05-30 Merge branch 'feature/detallesVentanaCajero' into develop
+[741d10c] Jose 2018-05-30 Se incluyen validaciones en ventana cajero
+24	7	src/proyectoconstru/VentanaCajero/InterfazcajeroController.java
+14	0	src/proyectoconstru/VentanaCajero/VentanaEdicionController.java
+1	1	src/proyectoconstru/VentanaCajero/interfazcajero.fxml
+34	1	src/proyectoconstru/VentanaLogin/VentanaLoginController.java
+
+[fcb8cd5] Roberto Ureta 2018-05-30 Merge branch 'feature/validacionesentextfield' into develop
+[97ef328] Roberto Ureta 2018-05-30 agregue event filter a los distintos textfield
+10	0	src/proyectoconstru/interfazAdministrador/AgregarProductoEnFacturaController.java
+10	1	src/proyectoconstru/interfazAdministrador/AnularBoletaController.java
+27	1	src/proyectoconstru/interfazAdministrador/EditarCajeroController.java
+28	1	src/proyectoconstru/interfazAdministrador/EditarProductoController.java
+34	1	src/proyectoconstru/interfazAdministrador/EditarProveedorController.java
+34	1	src/proyectoconstru/interfazAdministrador/FormularioAgregarCajeroController.java
+10	0	src/proyectoconstru/interfazAdministrador/FormularioAgregarFacturaController.java
+43	1	src/proyectoconstru/interfazAdministrador/FormularioAgregarProductoController.java
+42	1	src/proyectoconstru/interfazAdministrador/FormularioAgregarProveedorController.java
+
+[cf61d79] Jose 2018-05-29 Validaciones de los valores ingresados
+9	2	src/proyectoconstru/VentanaCajero/InterfazcajeroController.java
+10	2	src/proyectoconstru/VentanaCajero/VentanaEdicionController.java
+
+[93ef4a3] Jose 2018-05-29 Merge remote-tracking branch 'origin/develop' into develop
+[6f02125] Jose 2018-05-29 Merge branch 'feature/detalleVentanaLogin2' into develop
+[a4b44c9] Gabriel 2018-05-29 Merge branch 'Multihilo' into develop
+[f7a7334] Gabriel 2018-05-29 Se agrego multihilo a listarProveedor
+23	25	src/proyectoconstru/interfazAdministrador/FormularioAgregarFacturaController.java
+21	6	src/proyectoconstru/interfazAdministrador/ListarProveedoresController.java
+
+[d10ac86] Gabriel 2018-05-29 Solucionado conflictos salvajes
+0	4	src/proyectoconstru/interfazAdministrador/FormularioAgregarProducto.fxml
+0	4	src/proyectoconstru/interfazAdministrador/FormularioAgregarProveedor.fxml
+
+[1d2d904] Jose 2018-05-29 Cambios y validación ventana login
+1	1	src/proyectoconstru/VentanaLogin/VentanaLogin.fxml
+90	48	src/proyectoconstru/VentanaLogin/VentanaLoginController.java
+
+[3696475] ArielBass 2018-05-29 Se agregaron los test de ConsultaAdministrador
+35	0	test/AdministradorTest.java
+
+[5d7415a] Gabriel 2018-05-29 Resuelto conflicto olvidado en el codigo
+0	4	src/proyectoconstru/interfazAdministrador/FormularioAgregarProveedorController.java
+
+[fb24f7c] Roberto Ureta 2018-05-29 Merge branch 'feature/PequeñasModificaciones' into develop
+[d2caf31] Roberto Ureta 2018-05-29 Merge remote-tracking branch 'origin/feature/PequeñasModificaciones' into feature/PequeñasModificaciones
+[56461e8] Roberto Ureta 2018-05-29 pequeños cambios 2
+2	2	src/proyectoconstru/interfazAdministrador/EditarProveedorController.java
+1	1	src/proyectoconstru/interfazAdministrador/FormularioAgregarProducto.fxml
+1	1	src/proyectoconstru/interfazAdministrador/FormularioAgregarProveedor.fxml
+1	1	src/proyectoconstru/interfazAdministrador/FormularioAgregarProveedorController.java
+
+[d9af277] Roberto Ureta 2018-05-29 Pequeños cambios
+6	2	src/modelodedatos/ValidacionCampo.java
+8	0	src/proyectoconstru/interfazAdministrador/EditarCajeroController.java
+15	2	src/proyectoconstru/interfazAdministrador/FormularioAgregarCajeroController.java
+1	0	src/proyectoconstru/interfazAdministrador/FormularioAgregarFacturaController.java
+31	121	src/proyectoconstru/interfazAdministrador/FormularioAgregarProducto.fxml
+6	1	src/proyectoconstru/interfazAdministrador/FormularioAgregarProductoController.java
+34	104	src/proyectoconstru/interfazAdministrador/FormularioAgregarProveedor.fxml
+9	2	src/proyectoconstru/interfazAdministrador/FormularioAgregarProveedorController.java
+
+[0609c47] Nim 2018-05-29 Merge branch 'feature/ConsultaAdministrador' into develop
+[a1ec568] Nim 2018-05-29 Se agregó la interfaz de consulta Administrador
+99	0	src/proyectoconstru/conexion/ConsultaAdministrador.java
+77	0	src/proyectoconstru/conexion/ConsultaCajero.java
+
+[9658df2] Diego Matus 2018-05-29 Se agregaron tests a ValidacionCampoTest
+44	3	test/ValidacionCampoTest.java
+
+[8d7b312] Gabriel 2018-05-29 Multihilo
+25	1	src/proyectoconstru/interfazAdministrador/FormularioAgregarFacturaController.java
+
+[55f1ece] Roberto Ureta 2018-05-29 Pequeños cambios
+6	2	src/modelodedatos/ValidacionCampo.java
+8	0	src/proyectoconstru/interfazAdministrador/EditarCajeroController.java
+15	2	src/proyectoconstru/interfazAdministrador/FormularioAgregarCajeroController.java
+1	0	src/proyectoconstru/interfazAdministrador/FormularioAgregarFacturaController.java
+31	121	src/proyectoconstru/interfazAdministrador/FormularioAgregarProducto.fxml
+6	1	src/proyectoconstru/interfazAdministrador/FormularioAgregarProductoController.java
+34	104	src/proyectoconstru/interfazAdministrador/FormularioAgregarProveedor.fxml
+9	2	src/proyectoconstru/interfazAdministrador/FormularioAgregarProveedorController.java
+
+[3cc3362] Gabriel 2018-05-29 Cambios en interfaz
+37	84	src/proyectoconstru/interfazAdministrador/FormularioAgregarCajero.fxml
+76	126	src/proyectoconstru/interfazAdministrador/FormularioAgregarFactura.fxml
+3	2	src/proyectoconstru/interfazAdministrador/VentanaAdministradorController.java
+5	1	src/proyectoconstru/interfazAdministrador/theme.css
+
+[f7362ad] Diego Matus 2018-05-28 Modificación  y ejecución de test ValidacionCampoTest
+32	0	test/ValidacionCampoTest.java
+
+[b7476d1] Roberto Ureta 2018-05-28 Merge branch 'feature/NuevasValidaciones' into develop
+[b471de0] Roberto Ureta 2018-05-28 Agregue 2 nuevas validaciones
+20	1	src/modelodedatos/ValidacionCampo.java
+4	0	src/proyectoconstru/interfazAdministrador/EditarCajeroController.java
+8	0	src/proyectoconstru/interfazAdministrador/EditarProveedorController.java
+4	0	src/proyectoconstru/interfazAdministrador/FormularioAgregarCajeroController.java
+4	0	src/proyectoconstru/interfazAdministrador/FormularioAgregarProductoController.java
+8	0	src/proyectoconstru/interfazAdministrador/FormularioAgregarProveedorController.java
+
+[19497ed] Roberto Ureta 2018-05-27 Merge branch 'feature/FuncionalidadBajaStock' into develop
+[824b9d7] Roberto Ureta 2018-05-27 Lista funcionalidad Notificacion baja stock
+7	1	src/proyectoconstru/VentanaLogin/VentanaLoginController.java
+43	0	src/proyectoconstru/interfazAdministrador/ListarProductosBajaStock.fxml
+121	0	src/proyectoconstru/interfazAdministrador/ListarProductosBajaStockController.java
+35	1	src/proyectoconstru/interfazAdministrador/VentanaAdministradorController.java
+
+[113fa7d] Nim 2018-05-27 Merge branch 'feature/InterfazListarProductosConStockBajo' into develop
+[da98b2e] Josema 2018-05-27 Merge branch 'feature/ValidacionRut' into develop
+[2439bc8] Unknown 2018-05-27 Más arreglos a la validacionRut
+23	54	src/modelodedatos/ValidacionRut.java
+1	1	src/proyectoconstru/interfazAdministrador/FormularioAgregarCajeroController.java
+1	1	src/proyectoconstru/interfazAdministrador/FormularioAgregarProveedorController.java
+2	2	test/ValidacionRutTest.java
+
+[95302ed] Nim 2018-05-27 Se creó la interfaz para listar productos que tengan bajo stock.
+52	0	src/proyectoconstru/conexion/ConsultaProducto.java
+
+[1367295] Gabriel 2018-05-27 Merge branch 'feature/ModificacionTreeView' into develop
+[e94177b] Gabriel 2018-05-27 Se agrego un nuevo tree item
+3	1	src/proyectoconstru/interfazAdministrador/VentanaAdministradorController.java
+
+[db88bbc] Gabriel 2018-05-27 Se modifico la ventana de administrador
+25	7	src/proyectoconstru/interfazAdministrador/VentanaAdministradorController.java
+
+[258b6ae] ArielBass 2018-05-27 Se agregaron los test de ValidacionRut y ValidacionCampo
+1	1	src/modelodedatos/ValidacionCampo.java
+2	2	src/proyectoconstru/interfazAdministrador/FormularioAgregarCajeroController.java
+2	2	src/proyectoconstru/interfazAdministrador/FormularioAgregarProveedorController.java
+27	0	test/ValidacionCampoTest.java
+35	0	test/ValidacionRutTest.java
+
+[aff00d1] Diego Matus 2018-05-27 Merge remote-tracking branch 'origin/develop' into develop
+[0380329] Josema 2018-05-27 Merge branch 'feature/validacionRut' into develop
+[40cefe4] Unknown 2018-05-27 Arreglos a la clase ValidacionRut
+24	15	src/modelodedatos/ValidacionRut.java
+
+[70c5751] Diego Matus 2018-05-27 Se Creo y Ejecuto Test ValidacionCampoTest
+65	0	test/ValidacionCampoTest.java
+
+[5eea437] Roberto Ureta 2018-05-27 Merge branch 'feature/CambiosVariadosAdministrador2' into develop
+[f33e8a4] Roberto Ureta 2018-05-27 Agregue validaciones a los distintos formularios
+91	0	src/modelodedatos/ValidacionCampo.java
+57	1	src/modelodedatos/ValidacionRut.java
+0	2	src/proyectoconstru/interfazAdministrador/AgregarProductoEnFacturaController.java
+22	5	src/proyectoconstru/interfazAdministrador/AnularBoletaController.java
+61	16	src/proyectoconstru/interfazAdministrador/EditarCajeroController.java
+57	14	src/proyectoconstru/interfazAdministrador/EditarProductoController.java
+3	1	src/proyectoconstru/interfazAdministrador/EditarProductoEnFacturaController.java
+66	15	src/proyectoconstru/interfazAdministrador/EditarProveedorController.java
+5	5	src/proyectoconstru/interfazAdministrador/FormularioAgregarCajero.fxml
+62	5	src/proyectoconstru/interfazAdministrador/FormularioAgregarCajeroController.java
+112	106	src/proyectoconstru/interfazAdministrador/FormularioAgregarFactura.fxml
+42	11	src/proyectoconstru/interfazAdministrador/FormularioAgregarFacturaController.java
+6	5	src/proyectoconstru/interfazAdministrador/FormularioAgregarProducto.fxml
+71	19	src/proyectoconstru/interfazAdministrador/FormularioAgregarProductoController.java
+4	4	src/proyectoconstru/interfazAdministrador/FormularioAgregarProveedor.fxml
+71	12	src/proyectoconstru/interfazAdministrador/FormularioAgregarProveedorController.java
+
+[71c2767] Josema 2018-05-27 Merge branch 'feature/ValidacionRut' into develop
+[5b4f41b] Unknown 2018-05-27 Clase para validar el rut
+14	0	src/modelodedatos/ValidacionRut.java
+
+[0c96fdb] Jose 2018-05-27 Merge branch 'feature/MejoraVentanaCajero' into develop
+[9d29777] Jose 2018-05-27 Cambio insignificante
+15	12	src/proyectoconstru/VentanaCajero/InterfazcajeroController.java
+
+[08af1fe] Jose 2018-05-27 Modificaciones menores
+84	32	src/proyectoconstru/VentanaCajero/InterfazcajeroController.java
+19	67	src/proyectoconstru/VentanaCajero/VentanaEdicion.fxml
+36	21	src/proyectoconstru/VentanaCajero/VentanaEdicionController.java
+26	19	src/proyectoconstru/VentanaCajero/interfazcajero.fxml
+1	1	src/proyectoconstru/VentanaLogin/VentanaLoginController.java
+
+[453e544] Gabriel 2018-05-26 Se modifico la funcion existe factura
+[c0417b1] Roberto Ureta 2018-05-26 Merge branch 'feature/ModificacionesVentanaAdministrador' into develop
+[dba8844] Roberto Ureta 2018-05-26 Cambios variados en ventana administrador
+1	1	src/proyectoconstru/interfazAdministrador/AnularBoleta.fxml
+0	2	src/proyectoconstru/interfazAdministrador/AnularBoletaController.java
+1	1	src/proyectoconstru/interfazAdministrador/EditarCajero.fxml
+1	1	src/proyectoconstru/interfazAdministrador/EditarProducto.fxml
+1	1	src/proyectoconstru/interfazAdministrador/EditarProductoController.java
+1	1	src/proyectoconstru/interfazAdministrador/EditarProveedor.fxml
+25	0	src/proyectoconstru/interfazAdministrador/FormularioAgregarFacturaController.java
+19	2	src/proyectoconstru/interfazAdministrador/FormularioAgregarProductoController.java
+1	1	src/proyectoconstru/interfazAdministrador/FormularioAgregarProveedor.fxml
+17	3	src/proyectoconstru/interfazAdministrador/FormularioAgregarProveedorController.java
+1	1	src/proyectoconstru/interfazAdministrador/ListarCajeros.fxml
+36	4	src/proyectoconstru/interfazAdministrador/ListarCajerosController.java
+38	2	src/proyectoconstru/interfazAdministrador/ListarProductosController.java
+36	3	src/proyectoconstru/interfazAdministrador/ListarProductosProveedorController.java
+44	2	src/proyectoconstru/interfazAdministrador/ListarProveedoresController.java
+93	12	src/proyectoconstru/interfazAdministrador/VentanaAdministradorController.java
+
+[16e368c] Nim 2018-05-26 Merge branch 'feature/ModificacionesSolicitadas' into develop
+[fc11899] Nim 2018-05-26 Descomenté algo
+2	2	src/proyectoconstru/interfazAdministrador/EditarProductoController.java
+
+[50b99fd] Diego Matus 2018-05-26 Merge remote-tracking branch 'origin/feature/ModificacionesSolicitadas' into feature/ModificacionesSolicitadas
+[e3f1bfd] Diego Matus 2018-05-26 -Se modifico ProductoTest y ejecuto correctamente
+2	19	test/ProductoTest.java
+
+[922b956] ArielBass 2018-05-26 Modificacion de los test de producto y proveedor
+4	4	test/ProductoTest.java
+14	0	test/ProveedorTest.java
+
+[4399c55] Nim 2018-05-26 Ya no se puede modificar stock de producto directamente.
+13	11	src/proyectoconstru/conexion/ConsultaProducto.java
+21	0	src/proyectoconstru/conexion/ConsultaProveedor.java
+2	2	src/proyectoconstru/interfazAdministrador/EditarProductoController.java
+
+[7d72a53] Diego Matus 2018-05-26 Modificacion en Test FacturaTest y test completado correctamente
+3	3	test/FacturaTest.java
+
+[37e37fa] Gabriel 2018-05-25 Cambio a Factura
+4	3	src/proyectoconstru/conexion/ConsultaFactura.java
+
+[ba48a41] josema62 2018-05-23 Merge pull request #3 from josema62/develop
+[1c26ea2] Jose 2018-05-22 Merge remote-tracking branch 'origin/develop' into develop
+[9087e68] Jose 2018-05-22 Merge branch 'feature/InterfazGraficaReportes' into develop
+[b1b66fd] Roberto Ureta 2018-05-22 Merge branch 'feature/AnularBoleta' into develop
+[c0fa2e4] Roberto Ureta 2018-05-22 Pequeña modificacion en anular boleta
+1	1	src/proyectoconstru/interfazAdministrador/AnularBoletaController.java
+
+[d9d4e93] Roberto Ureta 2018-05-22 Funcionalidad Anular Boleta
+10	10	src/proyectoconstru/interfazAdministrador/AnularBoleta.fxml
+33	0	src/proyectoconstru/interfazAdministrador/AnularBoletaController.java
+
+[0654c77] Jose 2018-05-22 Cambios menores
+32	5	src/proyectoconstru/VentanaCajero/InterfazcajeroController.java
+10	5	src/proyectoconstru/VentanaCajero/interfazcajero.fxml
+1	0	src/proyectoconstru/VentanaLogin/VentanaLoginController.java
+1	1	src/proyectoconstru/interfazAdministrador/CompraProveedores.fxml
+4	3	src/proyectoconstru/interfazAdministrador/CompraProveedoresController.java
+16	0	src/proyectoconstru/interfazAdministrador/ReporteCompraProveedoresController.java
+19	0	src/proyectoconstru/interfazAdministrador/ReporteDiarioController.java
+2	2	src/proyectoconstru/interfazAdministrador/VentaDiaria.fxml
+6	4	src/proyectoconstru/interfazAdministrador/VentaDiariaController.java
+21	7	src/proyectoconstru/interfazAdministrador/VentanaAdministradorController.java
+
+[33860e3] Roberto Ureta 2018-05-22 Merge branch 'feature/PequeñosCambios' into develop
+[7d68784] Roberto Ureta 2018-05-22 Arregle un error que habia en Listar Productos asociados a un proveedor
+43	0	src/proyectoconstru/interfazAdministrador/ListarProductosProveedor.fxml
+164	0	src/proyectoconstru/interfazAdministrador/ListarProductosProveedorController.java
+2	2	src/proyectoconstru/interfazAdministrador/ListarProveedoresController.java
+
+[e5657e0] Roberto Ureta 2018-05-22 Merge branch 'feature/FuncionalidadFactura' into develop
+[095f4d9] Roberto Ureta 2018-05-21 Agregue funcionalidad a factura
+56	0	src/proyectoconstru/interfazAdministrador/AgregarProductoEnFactura.fxml
+84	0	src/proyectoconstru/interfazAdministrador/AgregarProductoEnFacturaController.java
+1	1	src/proyectoconstru/interfazAdministrador/EditarCajero.fxml
+59	0	src/proyectoconstru/interfazAdministrador/EditarProductoEnFactura.fxml
+81	0	src/proyectoconstru/interfazAdministrador/EditarProductoEnFacturaController.java
+1	1	src/proyectoconstru/interfazAdministrador/EditarProveedor.fxml
+18	13	src/proyectoconstru/interfazAdministrador/FormularioAgregarFactura.fxml
+229	8	src/proyectoconstru/interfazAdministrador/FormularioAgregarFacturaController.java
+14	0	src/proyectoconstru/interfazAdministrador/ListarCajerosController.java
+11	0	src/proyectoconstru/interfazAdministrador/ListarProductosController.java
+13	1	src/proyectoconstru/interfazAdministrador/ListarProveedoresController.java
+
+[846e0ba] Gabriel 2018-05-21 Merge branch 'feature/implementarConsultaFactura' into develop
+[ed70271] Diego Matus 2018-05-21 Merge remote-tracking branch 'origin/feature/implementarConsultaFactura' into feature/implementarConsultaFactura
+[0e4cf38] Diego Matus 2018-05-21 Se agregaron metodos en FacturaTest
+37	0	test/FacturaTest.java
+2	2	test/ProveedorTest.java
+
+[ef32bd7] ArielBass 2018-05-21 Se agregaron test de clase ConsultaFactura
+1	1	src/proyectoconstru/conexion/ConsultaFactura.java
+40	0	test/FacturaTest.java
+
+[5a80ef9] Jose 2018-05-21 Cambios menores a Interfaces
+111	36	src/proyectoconstru/VentanaCajero/InterfazcajeroController.java
+25	10	src/proyectoconstru/VentanaCajero/VentanaEdicionController.java
+45	26	src/proyectoconstru/VentanaLogin/VentanaLoginController.java
+4	1	src/proyectoconstru/interfazAdministrador/CompraProveedores.fxml
+14	16	src/proyectoconstru/interfazAdministrador/ReporteCompraProveedoresController.java
+13	10	src/proyectoconstru/interfazAdministrador/ReporteDiarioController.java
+4	1	src/proyectoconstru/interfazAdministrador/VentaDiaria.fxml
+1	1	src/proyectoconstru/interfazAdministrador/VentaDiariaController.java
+15	12	src/proyectoconstru/interfazAdministrador/VentanaAdministradorController.java
+
+[32fe450] Gabriel 2018-05-21 Modificacion factura y consultaFactura
+18	2	src/modelodedatos/Factura.java
+1	4	src/proyectoconstru/conexion/ConsultaFactura.java
+
+[61ffd31] Jose 2018-05-21 Reporte Compra Proveedores listo
+5	5	src/proyectoconstru/VentanaCajero/InterfazcajeroController.java
+18	8	src/proyectoconstru/interfazAdministrador/CompraProveedoresController.java
+11	4	src/proyectoconstru/interfazAdministrador/ReporteCompraProveedores.fxml
+69	12	src/proyectoconstru/interfazAdministrador/ReporteCompraProveedoresController.java
+13	0	src/proyectoconstru/interfazAdministrador/VentaDiariaController.java
+2	1	src/proyectoconstru/interfazAdministrador/VentanaAdministradorController.java
+
+[4884cf4] Gabriel 2018-05-20 Creación de la clase consulta factura
+128	0	src/proyectoconstru/conexion/ConsultaFactura.java
+
+[16039e9] Jose 2018-05-20 Reporte Ventas Diarias Listo
+1	0	src/proyectoconstru/VentanaCajero/InterfazcajeroController.java
+1	1	src/proyectoconstru/VentanaCajero/interfazcajero.fxml
+1	1	src/proyectoconstru/interfazAdministrador/CompraProveedores.fxml
+49	2	src/proyectoconstru/interfazAdministrador/CompraProveedoresController.java
+1	1	src/proyectoconstru/interfazAdministrador/ReporteCompraProveedores.fxml
+15	1	src/proyectoconstru/interfazAdministrador/ReporteCompraProveedoresController.java
+37	6	src/proyectoconstru/interfazAdministrador/ReporteDiarioController.java
+1	3	src/proyectoconstru/interfazAdministrador/VentaDiariaController.java
+3	1	src/proyectoconstru/interfazAdministrador/VentanaAdministradorController.java
+
+[868d62b] Jose 2018-05-20 Creación Interfaz de Reportes
+1	1	src/proyectoconstru/VentanaCajero/InterfazcajeroController.java
+14	14	src/proyectoconstru/interfazAdministrador/CompraProveedores.fxml
+27	0	src/proyectoconstru/interfazAdministrador/CompraProveedoresController.java
+66	0	src/proyectoconstru/interfazAdministrador/ReporteCompraProveedores.fxml
+48	0	src/proyectoconstru/interfazAdministrador/ReporteCompraProveedoresController.java
+62	0	src/proyectoconstru/interfazAdministrador/ReporteDiario.fxml
+52	0	src/proyectoconstru/interfazAdministrador/ReporteDiarioController.java
+10	10	src/proyectoconstru/interfazAdministrador/VentaDiaria.fxml
+45	1	src/proyectoconstru/interfazAdministrador/VentaDiariaController.java
+82	2	src/proyectoconstru/interfazAdministrador/VentanaAdministradorController.java
+
+[705024e] Roberto Ureta 2018-05-20 Merge branch 'feature/ControladorProveedor' into develop
+[942f0f7] Roberto Ureta 2018-05-20 Agregue funcionalidad a proveedores
+110	0	src/proyectoconstru/interfazAdministrador/EditarCajero.fxml
+139	0	src/proyectoconstru/interfazAdministrador/EditarCajeroController.java
+127	0	src/proyectoconstru/interfazAdministrador/EditarProveedor.fxml
+146	0	src/proyectoconstru/interfazAdministrador/EditarProveedorController.java
+10	9	src/proyectoconstru/interfazAdministrador/FormularioAgregarProveedor.fxml
+45	1	src/proyectoconstru/interfazAdministrador/FormularioAgregarProveedorController.java
+7	0	src/proyectoconstru/interfazAdministrador/ListarCajeros.fxml
+49	0	src/proyectoconstru/interfazAdministrador/ListarCajerosController.java
+2	13	src/proyectoconstru/interfazAdministrador/ListarProductos.fxml
+15	6	src/proyectoconstru/interfazAdministrador/ListarProductosController.java
+24	10	src/proyectoconstru/interfazAdministrador/ListarProveedores.fxml
+141	9	src/proyectoconstru/interfazAdministrador/ListarProveedoresController.java
+
+[1a32c5e] Nim 2018-05-20 Merge branch 'feature/InterfazGeneracionDeReportes' into develop
+[2389a79] Unknown 2018-05-20 Test Unitario ReporteTest completo
+22	49	test/ReporteTest.java
+
+[2c7f490] Unknown 2018-05-20 /InterfazGeneracionDeReportes: Auto stash before merge of "feature/InterfazGeneracionDeReportes" and "origin/feature/InterfazGeneracionDeReportes"
+48	0	test/ReporteTest.java
+
+[d48b129] Diego Matus 2018-05-20 Se agrego test Junit ReporteTest
+41	0	test/ReporteTest.java
+
+[5d86875] Nim 2018-05-20 Se implementó la interfaz para la generación de reportes.
+170	0	src/modelodedatos/DetalleReporteDeComprasProveedores.java
+95	0	src/modelodedatos/DetalleReporteDeVentas.java
+38	0	src/modelodedatos/ReporteDeComprasProveedores.java
+39	0	src/modelodedatos/ReporteDeVentas.java
+137	0	src/proyectoconstru/conexion/ConsultaReporte.java
+
+[8f56173] Nim 2018-05-19 Merge branch 'feature/InterfazCRUProveedores' into develop
+[3f5ceaa] Nim 2018-05-19 Retoque
+12	15	src/proyectoconstru/conexion/ConsultaProveedor.java
+
+[263c7bc] Nim 2018-05-19 Retoques
+15	3	src/proyectoconstru/conexion/ConsultaProveedor.java
+
+[1c2826a] Diego Matus 2018-05-17 Se agregaron nuevos test a ProveedorTest
+43	0	test/ProveedorTest.java
+
+[fdbd07f] ArielBass 2018-05-17 Agregados algunos test de ConsultaProveedor
+5	5	test/BoletaTest.java
+47	0	test/ProveedorTest.java
+
+[f3087c8] Nim 2018-05-17 Se implementó la interfaz para CRU de proveedores.
+263	0	src/proyectoconstru/conexion/ConsultaProveedor.java
+
+[3686fa8] Jose 2018-05-14 Merge branch 'feature/FuncionalidadCajero' into develop
+[0d15243] Jose 2018-05-14 Funcionalidad cajero completada
+0	1	src/modelodedatos/DetalleProducto.java
+55	53	src/proyectoconstru/VentanaCajero/InterfazcajeroController.java
+1	1	src/proyectoconstru/VentanaCajero/VentanaEdicionController.java
+1	1	src/proyectoconstru/conexion/ConsultaBoleta.java
+
+[0081b45] Jose 2018-05-14 Agrego funcionalidad a la ventana Cajero
+14	7	src/modelodedatos/Boleta.java
+2	1	src/modelodedatos/DetalleProducto.java
+239	14	src/proyectoconstru/VentanaCajero/InterfazcajeroController.java
+101	0	src/proyectoconstru/VentanaCajero/VentanaEdicion.fxml
+76	0	src/proyectoconstru/VentanaCajero/VentanaEdicionController.java
+26	18	src/proyectoconstru/VentanaCajero/interfazcajero.fxml
+4	1	src/proyectoconstru/VentanaCajero/theme.css
+30	11	src/proyectoconstru/VentanaLogin/VentanaLoginController.java
+
+[beeb650] Nim 2018-05-14 Merge branch 'feature/ProcedimientosFaltantesProducto' into develop
+[36bdbe4] Nim 2018-05-14 Se agregó un procedimiento faltante relacionado con los productos.
+52	0	src/proyectoconstru/conexion/ConsultaProducto.java
+
+[fb9cdec] Roberto Ureta 2018-05-14 Merge branch 'feature/FuncionalidadAgregarProducto' into develop
+[e20a9f3] Roberto Ureta 2018-05-14 Arregle algunos fallos que tenia funcionalidad EditarProducto
+1	1	src/proyectoconstru/interfazAdministrador/EditarProducto.fxml
+11	17	src/proyectoconstru/interfazAdministrador/EditarProductoController.java
+1	1	src/proyectoconstru/interfazAdministrador/FormularioAgregarProductoController.java
+14	20	src/proyectoconstru/interfazAdministrador/ListarProductosController.java
+
+[763deea] Roberto Ureta 2018-05-14 Agregue funcionalidad para Productos
+142	0	src/proyectoconstru/interfazAdministrador/EditarProducto.fxml
+158	0	src/proyectoconstru/interfazAdministrador/EditarProductoController.java
+10	8	src/proyectoconstru/interfazAdministrador/FormularioAgregarCajero.fxml
+4	1	src/proyectoconstru/interfazAdministrador/FormularioAgregarCajeroController.java
+11	9	src/proyectoconstru/interfazAdministrador/FormularioAgregarProducto.fxml
+55	3	src/proyectoconstru/interfazAdministrador/FormularioAgregarProductoController.java
+9	9	src/proyectoconstru/interfazAdministrador/ListarCajeros.fxml
+8	0	src/proyectoconstru/interfazAdministrador/ListarCajerosController.java
+35	18	src/proyectoconstru/interfazAdministrador/ListarProductos.fxml
+108	8	src/proyectoconstru/interfazAdministrador/ListarProductosController.java
+
+[1694960] Gabriel 2018-05-14 Merge branch 'feature/consulta_boleta' into develop
+[506aa3d] ArielBass 2018-05-14 Tets ConsultaBoleta finalizado
+4	0	src/proyectoconstru/conexion/ConsultaBoleta.java
+3	15	test/BoletaTest.java
+
+[7c081f5] ArielBass 2018-05-14 Solucion de error de conflicto
+46	1	test/BoletaTest.java
+
+[39907b9] Diego Matus 2018-05-14 Pruebas y modificaciones pequeñas
+7	7	src/modelodedatos/DetalleProducto.java
+4	3	src/proyectoconstru/conexion/ConsultaBoleta.java
+47	0	test/BoletaTest.java
+
+[942302a] Gabriel 2018-05-14 Se arreglo el problema que no agregaba mas de un producto a la lista de boletaproducto
+31	20	src/proyectoconstru/conexion/ConsultaBoleta.java
+
+[3999cb6] Gabriel 2018-05-13 Se agrego la clase ConsultaBoleta
+187	0	src/proyectoconstru/conexion/ConsultaBoleta.java
+
+[0104800] Nim 2018-05-13 Merge branch 'feature/ProcesosAlmacenadosDeProducto' into develop
+[538ccb5] ArielBass 2018-05-13  Test consultaProducto finalizados
+6	6	test/CajeroTest.java
+75	0	test/ProductoTest.java
+
+[9952986] Nim 2018-05-13 Se modificó el código para que cierre recursos usados por consultas.
+13	12	src/proyectoconstru/conexion/ConsultaProducto.java
+
+[3548128] Nim 2018-05-13 Se implementó la interfaz para hacer uso de los procedimientos almacenados de la base de datos.
+29	5	src/modelodedatos/DetalleProducto.java
+7	7	src/modelodedatos/Producto.java
+28	0	src/proyectoconstru/conexion/Consulta.java
+215	0	src/proyectoconstru/conexion/ConsultaProducto.java
+
+[6be36e8] Gabriel 2018-05-12 Merge branch 'feature/cambiar_db' into develop
+[2862c45] Gabriel 2018-05-12 Modificacion a la clase db y las consultas
+7	6	src/modelodedatos/BD.java
+1	1	src/proyectoconstru/conexion/ConsultaAutentificacion.java
+1	1	src/proyectoconstru/conexion/ConsultaCajero.java
+
+[8c836c0] Jose 2018-05-12 Cambio en la interfaz Login
+40	17	src/proyectoconstru/VentanaLogin/VentanaLogin.fxml
+-	-	src/proyectoconstru/VentanaLogin/fondo.png
+6	1	src/proyectoconstru/VentanaLogin/theme.css
+
+[c2ec22c] Gabriel 2018-05-12 Volvi a agregar la carpeta driver
+-	-	driver/mysql-connector-java-5.1.46.jar
+
+[b00c3f8] Gabriel 2018-05-12 Probando si ahora borro todo
+0	4	build/built-jar.properties
+-	-	build/classes/modelodedatos/Administrador.class
+-	-	build/classes/modelodedatos/BD.class
+-	-	build/classes/modelodedatos/Boleta.class
+-	-	build/classes/modelodedatos/Cajero.class
+-	-	build/classes/modelodedatos/DetalleProducto.class
+-	-	build/classes/modelodedatos/Factura.class
+-	-	build/classes/modelodedatos/FuncionDeReporte.class
+-	-	build/classes/modelodedatos/Producto.class
+-	-	build/classes/modelodedatos/Proveedor.class
+-	-	build/classes/modelodedatos/Usuario.class
+-	-	build/classes/proyectoconstru/ProyectoConstru.class
+-	-	build/classes/proyectoconstru/VentanaCajero/Interfaz.class
+-	-	build/classes/proyectoconstru/VentanaCajero/InterfazcajeroController.class
+-	-	build/classes/proyectoconstru/VentanaCajero/banner.png
+0	132	build/classes/proyectoconstru/VentanaCajero/interfazcajero.fxml
+0	30	build/classes/proyectoconstru/VentanaCajero/theme.css
+0	67	build/classes/proyectoconstru/VentanaLogin/VentanaLogin.fxml
+-	-	build/classes/proyectoconstru/VentanaLogin/VentanaLoginController.class
+-	-	build/classes/proyectoconstru/VentanaLogin/fondo.png
+-	-	build/classes/proyectoconstru/VentanaLogin/test.class
+0	5	build/classes/proyectoconstru/VentanaLogin/theme.css
+-	-	build/classes/proyectoconstru/conexion/ConsultaAutentificacion.class
+-	-	build/classes/proyectoconstru/conexion/ConsultaCajero.class
+0	42	build/classes/proyectoconstru/interfazAdministrador/AnularBoleta.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/AnularBoletaController.class
+0	52	build/classes/proyectoconstru/interfazAdministrador/CompraProveedores.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/CompraProveedoresController.class
+0	100	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarCajero.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarCajeroController.class
+0	142	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarFactura.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarFacturaController.class
+0	132	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarProducto.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarProductoController.class
+0	116	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarProveedor.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarProveedorController.class
+0	25	build/classes/proyectoconstru/interfazAdministrador/ListarCajeros.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/ListarCajerosController.class
+0	37	build/classes/proyectoconstru/interfazAdministrador/ListarProductos.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/ListarProductosController.class
+0	27	build/classes/proyectoconstru/interfazAdministrador/ListarProveedores.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/ListarProveedoresController.class
+0	42	build/classes/proyectoconstru/interfazAdministrador/VentaDiaria.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/VentaDiariaController.class
+0	26	build/classes/proyectoconstru/interfazAdministrador/VentanaAdministrador.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/VentanaAdministradorController.class
+-	-	build/classes/proyectoconstru/interfazAdministrador/banner.png
+-	-	build/classes/proyectoconstru/interfazAdministrador/test.class
+0	30	build/classes/proyectoconstru/interfazAdministrador/theme.css
+0	45	dist/ProyectoConstru.html
+-	-	dist/ProyectoConstru.jar
+0	19	dist/ProyectoConstru.jnlp
+-	-	dist/lib/mysql-connector-java-5.1.46.jar
+0	3954	dist/web-files/dtjava.js
+-	-	dist/web-files/error.png
+-	-	dist/web-files/get_java.png
+-	-	dist/web-files/get_javafx.png
+-	-	dist/web-files/javafx-chrome.png
+-	-	dist/web-files/javafx-loading-100x100.gif
+-	-	dist/web-files/javafx-loading-25x25.gif
+-	-	dist/web-files/upgrade_java.png
+-	-	dist/web-files/upgrade_javafx.png
+-	-	driver/mysql-connector-java-5.1.46.jar
+0	2	nbproject/private/configs/Run_as_WebStart.properties
+0	2	nbproject/private/configs/Run_in_Browser.properties
+0	27	nbproject/private/private.properties
+0	13	nbproject/private/private.xml
+
+[0562431] Gabriel 2018-05-12 Borre las cosas agregadas en el gitignore
+2	2	build/built-jar.properties
+2	2	dist/ProyectoConstru.html
+-	-	dist/ProyectoConstru.jar
+2	2	dist/ProyectoConstru.jnlp
+6	1	nbproject/private/private.properties
+5	4	nbproject/private/private.xml
+4	4	nbproject/project.properties
+
+[faa6949] EinherjarSt 2018-05-11 Actualizado gitignore
+38	5	.gitignore
+
+[f6d043f] Unknown 2018-05-11 Actualización BD
+-	-	extras/sayonara_bd_v2.psc
+
+[28ddd3b] Unknown 2018-05-11 Actualización master
+-	-	build/classes/proyectoconstru/conexion/ConsultaAutentificacion.class
+42	0	build/classes/proyectoconstru/interfazAdministrador/AnularBoleta.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/AnularBoletaController.class
+52	0	build/classes/proyectoconstru/interfazAdministrador/CompraProveedores.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/CompraProveedoresController.class
+100	0	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarCajero.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarCajeroController.class
+142	0	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarFactura.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarFacturaController.class
+132	0	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarProducto.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarProductoController.class
+116	0	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarProveedor.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarProveedorController.class
+25	0	build/classes/proyectoconstru/interfazAdministrador/ListarCajeros.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/ListarCajerosController.class
+37	0	build/classes/proyectoconstru/interfazAdministrador/ListarProductos.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/ListarProductosController.class
+27	0	build/classes/proyectoconstru/interfazAdministrador/ListarProveedores.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/ListarProveedoresController.class
+42	0	build/classes/proyectoconstru/interfazAdministrador/VentaDiaria.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/VentaDiariaController.class
+26	0	build/classes/proyectoconstru/interfazAdministrador/VentanaAdministrador.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/VentanaAdministradorController.class
+-	-	build/classes/proyectoconstru/interfazAdministrador/banner.png
+-	-	build/classes/proyectoconstru/interfazAdministrador/test.class
+30	0	build/classes/proyectoconstru/interfazAdministrador/theme.css
+45	0	dist/ProyectoConstru.html
+-	-	dist/ProyectoConstru.jar
+19	0	dist/ProyectoConstru.jnlp
+-	-	dist/lib/mysql-connector-java-5.1.46.jar
+3954	0	dist/web-files/dtjava.js
+-	-	dist/web-files/error.png
+-	-	dist/web-files/get_java.png
+-	-	dist/web-files/get_javafx.png
+-	-	dist/web-files/javafx-chrome.png
+-	-	dist/web-files/javafx-loading-100x100.gif
+-	-	dist/web-files/javafx-loading-25x25.gif
+-	-	dist/web-files/upgrade_java.png
+-	-	dist/web-files/upgrade_javafx.png
+
+[2d02c43] josema62 2018-05-11 Merge pull request #2 from josema62/Pruebas
+[8f2e5f0] Unknown 2018-05-11 Adición de driver mysql
+-	-	driver/mysql-connector-java-5.1.46.jar
+
+[ed782cf] Jose 2018-05-09 Modificaciones pequeñas
+2	2	build/built-jar.properties
+-	-	build/classes/proyectoconstru/VentanaLogin/VentanaLoginController.class
+4	24	nbproject/private/private.xml
+2	1	src/proyectoconstru/VentanaLogin/VentanaLoginController.java
+9	15	src/proyectoconstru/interfazAdministrador/VentanaAdministrador.fxml
+-	-	src/proyectoconstru/interfazAdministrador/banner.png
+30	0	src/proyectoconstru/interfazAdministrador/theme.css
+
+[f764edb] Unknown 2018-05-09 -Se integro interfaces y funcionalidad
+1	8	build/built-jar.properties
+-	-	build/classes/proyectoconstru/ProyectoConstru$1.class
+-	-	build/classes/proyectoconstru/ProyectoConstru.class
+-	-	build/classes/proyectoconstru/VentanaLogin/VentanaLoginController.class
+0	45	dist/ProyectoConstru.html
+-	-	dist/ProyectoConstru.jar
+0	18	dist/ProyectoConstru.jnlp
+0	3954	dist/web-files/dtjava.js
+-	-	dist/web-files/error.png
+-	-	dist/web-files/get_java.png
+-	-	dist/web-files/get_javafx.png
+-	-	dist/web-files/javafx-chrome.png
+-	-	dist/web-files/javafx-loading-100x100.gif
+-	-	dist/web-files/javafx-loading-25x25.gif
+-	-	dist/web-files/upgrade_java.png
+-	-	dist/web-files/upgrade_javafx.png
+66	53	src/proyectoconstru/VentanaLogin/VentanaLoginController.java
+
+[dd1bac0] Unknown 2018-05-09 Merge remote-tracking branch 'origin/JoseN' into Pruebas
+[bfb2342] Jose 2018-05-09 Agregue interfaz login
+1	1	build/built-jar.properties
+-	-	build/classes/proyectoconstru/ProyectoConstru$1.class
+-	-	build/classes/proyectoconstru/ProyectoConstru.class
+67	0	build/classes/proyectoconstru/VentanaLogin/VentanaLogin.fxml
+-	-	build/classes/proyectoconstru/VentanaLogin/VentanaLoginController.class
+-	-	build/classes/proyectoconstru/VentanaLogin/fondo.png
+-	-	build/classes/proyectoconstru/VentanaLogin/test.class
+5	0	build/classes/proyectoconstru/VentanaLogin/theme.css
+2	2	dist/ProyectoConstru.html
+-	-	dist/ProyectoConstru.jar
+1	1	dist/ProyectoConstru.jnlp
+17	18	src/proyectoconstru/ProyectoConstru.java
+67	0	src/proyectoconstru/VentanaLogin/VentanaLogin.fxml
+157	0	src/proyectoconstru/VentanaLogin/VentanaLoginController.java
+-	-	src/proyectoconstru/VentanaLogin/fondo.png
+38	0	src/proyectoconstru/VentanaLogin/test.java
+5	0	src/proyectoconstru/VentanaLogin/theme.css
+
+[a062799] Unknown 2018-05-09 Se agrego listar Cajero y agregar Cajero
+2	2	build/built-jar.properties
+-	-	build/classes/modelodedatos/BD.class
+-	-	build/classes/modelodedatos/Usuario.class
+-	-	build/test/classes/CajeroTest.class
+0	356	build/test/results/TEST-CajeroTest.xml
+1	1	src/modelodedatos/BD.java
+1	1	src/modelodedatos/Usuario.java
+5	11	src/proyectoconstru/interfazAdministrador/FormularioAgregarCajeroController.java
+10	7	src/proyectoconstru/interfazAdministrador/ListarCajerosController.java
+0	60	src/proyectoconstru/logicaCajero/Cajero.java
+0	33	src/proyectoconstru/logicaCajero/Lista.java
+
+[334b1e0] Unknown 2018-05-09 Merge remote-tracking branch 'origin/Roberto' into Pruebas
+[7d84d26] Roberto Ureta 2018-05-09 Agregue funcionalidad a la ventana agregar Cajero
+1	1	src/proyectoconstru/interfazAdministrador/FormularioAgregarCajero.fxml
+43	0	src/proyectoconstru/interfazAdministrador/FormularioAgregarCajeroController.java
+45	6	src/proyectoconstru/interfazAdministrador/ListarCajerosController.java
+60	0	src/proyectoconstru/logicaCajero/Cajero.java
+33	0	src/proyectoconstru/logicaCajero/Lista.java
+
+[555ddcb] ArielBass 2018-05-09 ConsultaAutentifiacion Pruebas Completadas
+2	2	build/built-jar.properties
+-	-	build/classes/modelodedatos/BD.class
+58	149	build/test/results/TEST-CajeroTest.xml
+1	1	nbproject/private/private.properties
+2	1	nbproject/project.properties
+1	1	src/modelodedatos/BD.java
+3	2	src/proyectoconstru/conexion/ConsultaAutentificacion.java
+39	0	test/AutentificacionTest.java
+
+[a244671] Unknown 2018-05-09 Merge remote-tracking branch 'origin/Gabriel' into Pruebas
+[ff48d39] Unknown 2018-05-09 ConsultaCajero Pruebas Completadas
+1	1	build/built-jar.properties
+-	-	build/classes/modelodedatos/BD.class
+-	-	build/classes/proyectoconstru/ProyectoConstru$1.class
+-	-	build/classes/proyectoconstru/ProyectoConstru.class
+-	-	build/classes/proyectoconstru/conexion/ConsultaCajero.class
+-	-	build/test/classes/CajeroTest.class
+31	37	build/test/results/TEST-CajeroTest.xml
+1	1	nbproject/private/private.properties
+3	1	nbproject/project.properties
+3	2	src/modelodedatos/BD.java
+1	1	src/proyectoconstru/conexion/ConsultaCajero.java
+
+[5aab048] Gabriel 2018-05-09 Se agrego la clase consultaAutentificacion
+82	0	src/proyectoconstru/conexion/ConsultaAutentificacion.java
+
+[8cee470] Unknown 2018-05-09 Merge remote-tracking branch 'origin/Pruebas' into Pruebas
+[42c62a7] Jose 2018-05-08 Agregue Total a la Interfaz Cajero
+1	1	build/built-jar.properties
+-	-	build/classes/proyectoconstru/VentanaCajero/InterfazcajeroController.class
+16	3	build/classes/proyectoconstru/VentanaCajero/interfazcajero.fxml
+2	2	dist/ProyectoConstru.html
+-	-	dist/ProyectoConstru.jar
+1	1	dist/ProyectoConstru.jnlp
+10	0	src/proyectoconstru/VentanaCajero/InterfazcajeroController.java
+16	3	src/proyectoconstru/VentanaCajero/interfazcajero.fxml
+
+[14a20cb] Unknown 2018-05-08 Merge branch 'Roberto' into Pruebas
+[aa5c541] Unknown 2018-05-08 Modificacion ConsultaCajero
+1	1	build/built-jar.properties
+-	-	build/classes/modelodedatos/BD.class
+-	-	build/classes/proyectoconstru/conexion/ConsultaCajero.class
+-	-	build/test/classes/CajeroTest.class
+453	0	build/test/results/TEST-CajeroTest.xml
+5	1	src/modelodedatos/BD.java
+2	1	src/proyectoconstru/conexion/ConsultaCajero.java
+4	2	test/CajeroTest.java
+
+[33f3dc4] Jose 2018-05-08 Agregue función de ingreso de código
+1	1	build/built-jar.properties
+-	-	build/classes/proyectoconstru/VentanaCajero/InterfazcajeroController.class
+2	2	dist/ProyectoConstru.html
+-	-	dist/ProyectoConstru.jar
+1	1	dist/ProyectoConstru.jnlp
+1	1	nbproject/private/private.properties
+7	0	nbproject/private/private.xml
+33	3	src/proyectoconstru/VentanaCajero/InterfazcajeroController.java
+
+[1e40863] Unknown 2018-05-08 Auto stash before merge of "Pruebas" and "Gabriel"
+1	0	.gitignore
+
+[d81ce8a] Unknown 2018-05-08 Merge branch 'Gabriel' into Pruebas
+[5715c80] Unknown 2018-05-08 Merge branch 'ModeloDeDatos' into Pruebas
+[13d20b5] Gabriel 2018-05-08 Se arreglo el constructor para obtuviera la conexion.
+1	0	src/proyectoconstru/conexion/ConsultaCajero.java
+
+[a69e76e] Gabriel 2018-05-08 Modificacion en BD
+39	19	src/modelodedatos/BD.java
+
+[49f1407] Unknown 2018-05-08 Merge branch 'ModeloDeDatos' into Pruebas
+[85872d7] Gabriel 2018-05-08 Se agrego la funcionalidad para conectar a la base de dato
+59	11	src/modelodedatos/BD.java
+
+[b409d4c] Unknown 2018-05-08 Merge branch 'Gabriel' into Pruebas
+[9354359] Gabriel 2018-05-08 Cambio en Consulta Cajero
+14	5	src/proyectoconstru/conexion/ConsultaCajero.java
+
+[b35a4ed] Unknown 2018-05-08 Se agrego Test Junit CajeroTest
+2	2	build/built-jar.properties
+-	-	build/classes/modelodedatos/Administrador.class
+-	-	build/classes/modelodedatos/BD.class
+-	-	build/classes/modelodedatos/Boleta.class
+-	-	build/classes/modelodedatos/Cajero.class
+-	-	build/classes/modelodedatos/DetalleProducto.class
+-	-	build/classes/modelodedatos/Factura.class
+-	-	build/classes/modelodedatos/FuncionDeReporte.class
+-	-	build/classes/modelodedatos/Producto.class
+-	-	build/classes/modelodedatos/Proveedor.class
+-	-	build/classes/modelodedatos/Usuario.class
+-	-	build/classes/proyectoconstru/ProyectoConstru$1.class
+-	-	build/classes/proyectoconstru/ProyectoConstru.class
+0	42	build/classes/proyectoconstru/interfazAdministrador/AnularBoleta.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/AnularBoletaController.class
+0	52	build/classes/proyectoconstru/interfazAdministrador/CompraProveedores.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/CompraProveedoresController.class
+0	101	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarCajero.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarCajeroController.class
+0	113	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarFactura.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarFacturaController.class
+0	132	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarProducto.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarProductoController.class
+0	117	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarProveedor.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarProveedorController.class
+0	26	build/classes/proyectoconstru/interfazAdministrador/ListarCajeros.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/ListarCajerosController.class
+0	38	build/classes/proyectoconstru/interfazAdministrador/ListarProductos.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/ListarProductosController.class
+0	28	build/classes/proyectoconstru/interfazAdministrador/ListarProveedores.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/ListarProveedoresController.class
+0	42	build/classes/proyectoconstru/interfazAdministrador/VentaDiaria.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/VentaDiariaController.class
+0	43	build/classes/proyectoconstru/interfazAdministrador/VentanaAdministrador.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/VentanaAdministradorController.class
+-	-	build/classes/proyectoconstru/interfazAdministrador/test.class
+0	45	dist/ProyectoConstru.html
+0	18	dist/ProyectoConstru.jnlp
+0	3954	dist/web-files/dtjava.js
+-	-	dist/web-files/error.png
+-	-	dist/web-files/get_java.png
+-	-	dist/web-files/get_javafx.png
+-	-	dist/web-files/javafx-chrome.png
+-	-	dist/web-files/javafx-loading-100x100.gif
+-	-	dist/web-files/javafx-loading-25x25.gif
+-	-	dist/web-files/upgrade_java.png
+-	-	dist/web-files/upgrade_javafx.png
+1	1	nbproject/private/private.properties
+2	15	nbproject/private/private.xml
+3	1	nbproject/project.properties
+1	0	src/proyectoconstru/conexion/ConsultaCajero.java
+30	0	test/CajeroTest.java
+
+[1aebcc4] Unknown 2018-05-08 Merge branch 'ModeloDeDatos' into Pruebas
+[7ab5c02] Unknown 2018-05-08 Merge branch 'Gabriel' into Pruebas
+[b3c3c9d] Gabriel 2018-05-07 Cambios consulta cajero
+43	63	src/proyectoconstru/conexion/ConsultaCajero.java
+
+[ccceb68] Roberto Ureta 2018-05-07 Modifique la interfaz de agregarFactura
+8	4	nbproject/private/private.xml
+43	13	src/proyectoconstru/interfazAdministrador/FormularioAgregarFactura.fxml
+21	5	src/proyectoconstru/interfazAdministrador/FormularioAgregarFacturaController.java
+
+[3de70d0] Nim 2018-05-07 Se implementó el modelo de datos. Está incompleto.
+1	1	nbproject/private/private.properties
+19	0	nbproject/private/private.xml
+18	0	src/modelodedatos/Administrador.java
+35	0	src/modelodedatos/BD.java
+169	0	src/modelodedatos/Boleta.java
+45	0	src/modelodedatos/Cajero.java
+91	0	src/modelodedatos/DetalleProducto.java
+136	0	src/modelodedatos/Factura.java
+25	0	src/modelodedatos/FuncionDeReporte.java
+153	0	src/modelodedatos/Producto.java
+182	0	src/modelodedatos/Proveedor.java
+122	0	src/modelodedatos/Usuario.java
+
+[b39267e] Gabriel 2018-05-07 Se creo la clase crud cajero
+4	0	build/built-jar.properties
+-	-	build/classes/proyectoconstru/ProyectoConstru$1.class
+-	-	build/classes/proyectoconstru/ProyectoConstru.class
+42	0	build/classes/proyectoconstru/interfazAdministrador/AnularBoleta.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/AnularBoletaController.class
+52	0	build/classes/proyectoconstru/interfazAdministrador/CompraProveedores.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/CompraProveedoresController.class
+101	0	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarCajero.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarCajeroController.class
+113	0	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarFactura.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarFacturaController.class
+132	0	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarProducto.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarProductoController.class
+117	0	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarProveedor.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/FormularioAgregarProveedorController.class
+26	0	build/classes/proyectoconstru/interfazAdministrador/ListarCajeros.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/ListarCajerosController.class
+38	0	build/classes/proyectoconstru/interfazAdministrador/ListarProductos.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/ListarProductosController.class
+28	0	build/classes/proyectoconstru/interfazAdministrador/ListarProveedores.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/ListarProveedoresController.class
+42	0	build/classes/proyectoconstru/interfazAdministrador/VentaDiaria.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/VentaDiariaController.class
+43	0	build/classes/proyectoconstru/interfazAdministrador/VentanaAdministrador.fxml
+-	-	build/classes/proyectoconstru/interfazAdministrador/VentanaAdministradorController.class
+-	-	build/classes/proyectoconstru/interfazAdministrador/test.class
+45	0	dist/ProyectoConstru.html
+18	0	dist/ProyectoConstru.jnlp
+3954	0	dist/web-files/dtjava.js
+-	-	dist/web-files/error.png
+-	-	dist/web-files/get_java.png
+-	-	dist/web-files/get_javafx.png
+-	-	dist/web-files/javafx-chrome.png
+-	-	dist/web-files/javafx-loading-100x100.gif
+-	-	dist/web-files/javafx-loading-25x25.gif
+-	-	dist/web-files/upgrade_java.png
+-	-	dist/web-files/upgrade_javafx.png
+1	1	nbproject/private/private.properties
+9	0	nbproject/private/private.xml
+202	0	src/proyectoconstru/conexion/ConsultaCajero.java
+
+[b1149e6] Unknown 2018-05-06 Agregue la navegación en la ventanaAdministracion
+1	2	src/proyectoconstru/interfazAdministrador/FormularioAgregarCajero.fxml
+1	2	src/proyectoconstru/interfazAdministrador/FormularioAgregarFactura.fxml
+1	1	src/proyectoconstru/interfazAdministrador/FormularioAgregarProducto.fxml
+1	2	src/proyectoconstru/interfazAdministrador/FormularioAgregarProveedor.fxml
+2	3	src/proyectoconstru/interfazAdministrador/ListarCajeros.fxml
+2	3	src/proyectoconstru/interfazAdministrador/ListarProductos.fxml
+2	2	src/proyectoconstru/interfazAdministrador/ListarProductosController.java
+2	3	src/proyectoconstru/interfazAdministrador/ListarProveedores.fxml
+12	14	src/proyectoconstru/interfazAdministrador/VentanaAdministrador.fxml
+117	44	src/proyectoconstru/interfazAdministrador/VentanaAdministradorController.java
+
+[1931e46] Jose 2018-05-06 Ventana Cajero
+4	0	build/built-jar.properties
+-	-	build/classes/proyectoconstru/ProyectoConstru$1.class
+-	-	build/classes/proyectoconstru/ProyectoConstru.class
+-	-	build/classes/proyectoconstru/VentanaCajero/Interfaz.class
+-	-	build/classes/proyectoconstru/VentanaCajero/InterfazcajeroController.class
+-	-	build/classes/proyectoconstru/VentanaCajero/banner.png
+119	0	build/classes/proyectoconstru/VentanaCajero/interfazcajero.fxml
+30	0	build/classes/proyectoconstru/VentanaCajero/theme.css
+45	0	dist/ProyectoConstru.html
+-	-	dist/ProyectoConstru.jar
+18	0	dist/ProyectoConstru.jnlp
+3954	0	dist/web-files/dtjava.js
+-	-	dist/web-files/error.png
+-	-	dist/web-files/get_java.png
+-	-	dist/web-files/get_javafx.png
+-	-	dist/web-files/javafx-chrome.png
+-	-	dist/web-files/javafx-loading-100x100.gif
+-	-	dist/web-files/javafx-loading-25x25.gif
+-	-	dist/web-files/upgrade_java.png
+-	-	dist/web-files/upgrade_javafx.png
+36	0	src/proyectoconstru/VentanaCajero/Interfaz.java
+113	0	src/proyectoconstru/VentanaCajero/InterfazcajeroController.java
+-	-	src/proyectoconstru/VentanaCajero/banner.png
+119	0	src/proyectoconstru/VentanaCajero/interfazcajero.fxml
+30	0	src/proyectoconstru/VentanaCajero/theme.css
+
+[567171e] Unknown 2018-05-06 Hice Ventana Administrador
+2	0	.gitignore
+1	1	nbproject/private/private.properties
+13	0	nbproject/private/private.xml
+2	0	src/proyectoconstru/ProyectoConstru.java
+42	0	src/proyectoconstru/interfazAdministrador/AnularBoleta.fxml
+37	0	src/proyectoconstru/interfazAdministrador/AnularBoletaController.java
+52	0	src/proyectoconstru/interfazAdministrador/CompraProveedores.fxml
+39	0	src/proyectoconstru/interfazAdministrador/CompraProveedoresController.java
+101	0	src/proyectoconstru/interfazAdministrador/FormularioAgregarCajero.fxml
+46	0	src/proyectoconstru/interfazAdministrador/FormularioAgregarCajeroController.java
+113	0	src/proyectoconstru/interfazAdministrador/FormularioAgregarFactura.fxml
+51	0	src/proyectoconstru/interfazAdministrador/FormularioAgregarFacturaController.java
+132	0	src/proyectoconstru/interfazAdministrador/FormularioAgregarProducto.fxml
+48	0	src/proyectoconstru/interfazAdministrador/FormularioAgregarProductoController.java
+117	0	src/proyectoconstru/interfazAdministrador/FormularioAgregarProveedor.fxml
+49	0	src/proyectoconstru/interfazAdministrador/FormularioAgregarProveedorController.java
+26	0	src/proyectoconstru/interfazAdministrador/ListarCajeros.fxml
+41	0	src/proyectoconstru/interfazAdministrador/ListarCajerosController.java
+38	0	src/proyectoconstru/interfazAdministrador/ListarProductos.fxml
+48	0	src/proyectoconstru/interfazAdministrador/ListarProductosController.java
+28	0	src/proyectoconstru/interfazAdministrador/ListarProveedores.fxml
+47	0	src/proyectoconstru/interfazAdministrador/ListarProveedoresController.java
+42	0	src/proyectoconstru/interfazAdministrador/VentaDiaria.fxml
+37	0	src/proyectoconstru/interfazAdministrador/VentaDiariaController.java
+34	0	src/proyectoconstru/interfazAdministrador/VentanaAdministrador.fxml
+115	0	src/proyectoconstru/interfazAdministrador/VentanaAdministradorController.java
+39	0	src/proyectoconstru/interfazAdministrador/test.java
+
+[fb778e7] Unknown 2018-05-05 proyecto inicial
+53	0	build.xml
+3	0	manifest.mf
+1421	0	nbproject/build-impl.xml
+2	0	nbproject/configs/Run_as_WebStart.properties
+2	0	nbproject/configs/Run_in_Browser.properties
+8	0	nbproject/genfiles.properties
+4049	0	nbproject/jfx-impl.xml
+2	0	nbproject/private/configs/Run_as_WebStart.properties
+2	0	nbproject/private/configs/Run_in_Browser.properties
+6	0	nbproject/private/private.properties
+113	0	nbproject/project.properties
+25	0	nbproject/project.xml
+51	0	src/proyectoconstru/ProyectoConstru.java
+
+[225cfba] Unknown 2018-05-04 Initial commit
+1	0	README.md
